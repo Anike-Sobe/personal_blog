@@ -262,3 +262,36 @@ header .nav {
     object-position: center;
     border: 2px solid var(--second-color );
 }
+
+/* FOOTER SECTION */
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-container .sec {
+    margin-right: 30px;
+}
+
+.footer-container .sec .aboutus {
+    width: 40%;
+}
+
+.footer-container h2 {
+    position: relative;
+    color: #fff;
+    margin-bottom: 15px;
+}
