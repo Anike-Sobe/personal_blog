@@ -18,7 +18,7 @@ $(document).ready(function () {
                 .hide(1000);
             $(".post-box")
                 .filter("." + value)
-                .show("1000")
+                .show("10000")
             
         }
     });
